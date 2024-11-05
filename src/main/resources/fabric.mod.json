@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flavourfulandfoul",
+	"version": "${version}",
+	"name": "Flavourful And Foul",
+	"description": "For all your unconventional tastes!",
+	"authors": [
+		"PersonThatMayExist"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/flavourfulandfoul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atsderg.flavourfulandfoul.FlavourfulAndFoul"
+		],
+		"fabric-datagen": [
+			"net.atsderg.flavourfulandfoul.FlavourfulAndFoulDataGenerator"
+		],
+		"client": [
+			"net.atsderg.flavourfulandfoul.FlavourfulAndFoulClient"
+		]
+	},
+	"mixins": [
+		"flavourfulandfoul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
