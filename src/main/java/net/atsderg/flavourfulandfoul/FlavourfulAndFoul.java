@@ -1,5 +1,6 @@
 package net.atsderg.flavourfulandfoul;
 
+import net.atsderg.flavourfulandfoul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class FlavourfulAndFoul implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
