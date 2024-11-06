@@ -4,6 +4,7 @@ import net.atsderg.flavourfulandfoul.FlavourfulAndFoul;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -11,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block TESTING_BLOCK = registerBlock("testing_block",
@@ -21,6 +23,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block TESTING_CRATE_BLOCK = registerBlock("testing_crate_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.WOOD)));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -39,6 +44,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.TESTING_BLOCK);
             entries.add(ModBlocks.YELLOW_TESTING_BLOCK);
+            entries.add(ModBlocks.TESTING_CRATE_BLOCK);
         });
     }
 }

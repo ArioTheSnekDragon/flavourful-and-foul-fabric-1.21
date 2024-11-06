@@ -13,13 +13,15 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup TESTING_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FlavourfulAndFoul.MOD_ID, "testing_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SILLY_TESTING_ITEM))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.TESTING_ITEM))
                     .displayName(Text.translatable("itemgroup.flavourfulandfoul.testing_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TESTING_ITEM);
                         entries.add(ModItems.SILLY_TESTING_ITEM);
+
                         entries.add(ModBlocks.TESTING_BLOCK);
                         entries.add(ModBlocks.YELLOW_TESTING_BLOCK);
+                        entries.add(ModBlocks.TESTING_CRATE_BLOCK);
 
                     }).build());
 /*
