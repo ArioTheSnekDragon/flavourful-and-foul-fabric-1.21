@@ -3,5 +3,8 @@
   "item.flavourfulandfoul.testing_item_silly": "Silly Testing Item",
 
   "block.flavourfulandfoul.testing_block": "Testing Block",
-  "block.flavourfulandfoul.testing_block_yellow": "Block of Yellow Testing"
+  "block.flavourfulandfoul.testing_block_yellow": "Yellow Testing Block",
+
+  "itemgroup.flavourfulandfoul.testing_items": "Testing Items",
+  "itemgroup.flavourfulandfoul.testing_blocks": "Testing Blocks"
 }
