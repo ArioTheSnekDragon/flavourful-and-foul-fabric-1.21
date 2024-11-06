@@ -1,5 +1,6 @@
 package net.atsderg.flavourfulandfoul;
 
+import net.atsderg.flavourfulandfoul.block.ModBlocks;
 import net.atsderg.flavourfulandfoul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class FlavourfulAndFoul implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

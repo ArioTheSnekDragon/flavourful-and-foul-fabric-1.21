@@ -12,6 +12,7 @@ public class ModItems {
     public static final Item TESTING_ITEM = registerItem("testing_item", new Item(new Item.Settings()));
     public static final Item SILLY_TESTING_ITEM = registerItem("testing_item_silly", new Item(new Item.Settings()));
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FlavourfulAndFoul.MOD_ID, name), item);
     }

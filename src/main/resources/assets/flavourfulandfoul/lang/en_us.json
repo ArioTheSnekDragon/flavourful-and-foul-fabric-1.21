@@ -1,4 +1,7 @@
 {
   "item.flavourfulandfoul.testing_item": "Testing Item",
-  "item.flavourfulandfoul.testing_item_silly": "Silly Testing Item"
+  "item.flavourfulandfoul.testing_item_silly": "Silly Testing Item",
+
+  "block.flavourfulandfoul.testing_block": "Testing Block",
+  "block.flavourfulandfoul.testing_block_yellow": "Block of Yellow Testing"
 }
