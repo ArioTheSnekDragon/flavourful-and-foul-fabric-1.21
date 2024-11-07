@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flavourfulandfoul:item/testing_item_silly"
+    "layer0": "flavourfulandfoul:item/testing_chisel"
   }
 }

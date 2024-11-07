@@ -1,6 +1,7 @@
 package net.atsderg.flavourfulandfoul.block;
 
 import net.atsderg.flavourfulandfoul.FlavourfulAndFoul;
+import net.atsderg.flavourfulandfoul.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -24,8 +25,11 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
     public static final Block TESTING_CRATE_BLOCK = registerBlock("testing_crate_block",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+            new ExperienceDroppingBlock(UniformIntProvider.create(0,1),
                     AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {

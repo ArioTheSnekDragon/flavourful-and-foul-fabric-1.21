@@ -17,11 +17,16 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.flavourfulandfoul.testing_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TESTING_ITEM);
-                        entries.add(ModItems.SILLY_TESTING_ITEM);
+                        entries.add(ModItems.TESTING_ITEM_YELLOW);
 
                         entries.add(ModBlocks.TESTING_BLOCK);
                         entries.add(ModBlocks.YELLOW_TESTING_BLOCK);
+
                         entries.add(ModBlocks.TESTING_CRATE_BLOCK);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModItems.TESTING_CHISEL);
 
                     }).build());
 /*

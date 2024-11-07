@@ -3,16 +3,18 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "flavourfulandfoul:testing_item_yellow"
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "#",
+    "S"
   ],
   "result": {
     "count": 1,
-    "id": "flavourfulandfoul:testing_block_yellow"
+    "id": "flavourfulandfoul:testing_chisel"
   }
 }
