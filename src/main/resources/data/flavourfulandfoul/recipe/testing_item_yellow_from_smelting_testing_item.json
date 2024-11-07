@@ -3,11 +3,11 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.1,
-  "group": "testing_item_silly",
+  "group": "testing_item_yellow",
   "ingredient": {
     "item": "flavourfulandfoul:testing_item"
   },
   "result": {
-    "id": "flavourfulandfoul:testing_item_silly"
+    "id": "flavourfulandfoul:testing_item_yellow"
   }
 }

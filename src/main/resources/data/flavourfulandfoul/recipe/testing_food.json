@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
+    "I": {
+      "item": "flavourfulandfoul:testing_item"
+    }
+  },
+  "pattern": [
+    "#",
+    "I",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flavourfulandfoul:testing_food"
+  }
+}

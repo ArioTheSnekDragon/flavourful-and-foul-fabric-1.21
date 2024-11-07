@@ -5,6 +5,7 @@ import net.atsderg.flavourfulandfoul.item.ModItemGroups;
 import net.atsderg.flavourfulandfoul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,7 @@ public class FlavourfulAndFoul implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.TESTING_FUEL, 1000);
 	}
 }

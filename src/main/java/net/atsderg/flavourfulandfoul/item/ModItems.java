@@ -2,6 +2,7 @@ package net.atsderg.flavourfulandfoul.item;
 
 import net.atsderg.flavourfulandfoul.FlavourfulAndFoul;
 import net.atsderg.flavourfulandfoul.item.custom.ChiselItem;
+import net.atsderg.flavourfulandfoul.item.custom.KindlingItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -15,6 +16,9 @@ public class ModItems {
     public static final Item TESTING_ITEM_PINK = registerItem("testing_item_pink", new Item(new Item.Settings()));
 
     public static final Item TESTING_CHISEL = registerItem("testing_chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
+
+    public static final Item TESTING_FOOD = registerItem("testing_food", new Item(new Item.Settings().food(ModFoodComponents.TESTING_FOOD)));
+    public static final Item TESTING_FUEL = registerItem("testing_fuel", new KindlingItem(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FlavourfulAndFoul.MOD_ID, name), item);

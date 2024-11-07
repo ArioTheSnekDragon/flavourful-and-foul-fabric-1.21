@@ -19,13 +19,14 @@ public class ModItemGroups {
                         entries.add(ModItems.TESTING_ITEM);
                         entries.add(ModItems.TESTING_ITEM_YELLOW);
                         entries.add(ModItems.TESTING_ITEM_PINK);
+                        entries.add(ModItems.TESTING_FOOD);
+                        entries.add(ModItems.TESTING_FUEL);
 
                         entries.add(ModBlocks.TESTING_BLOCK);
                         entries.add(ModBlocks.YELLOW_TESTING_BLOCK);
                         entries.add(ModBlocks.PINK_TESTING_BLOCK);
 
                         entries.add(ModBlocks.TESTING_CRATE_BLOCK);
-
                         entries.add(ModBlocks.MAGIC_BLOCK);
 
                         entries.add(ModItems.TESTING_CHISEL);

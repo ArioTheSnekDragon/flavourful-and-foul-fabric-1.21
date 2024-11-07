@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {"item": "minecraft:diamond"},
+    "B": {"item": "minecraft:dragon_breath"},
+    "A": {"item": "minecraft:amethyst_shard"},
+    "T": {"item": "flavourfulandfoul:testing_block"},
+    "Y": {"item": "flavourfulandfoul:testing_block_yellow"}
+  },
+  "pattern": [
+    "TBY",
+    "DAD",
+    "YDT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flavourfulandfoul:magic_block"
+  }
+}
