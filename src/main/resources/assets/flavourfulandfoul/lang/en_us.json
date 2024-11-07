@@ -1,11 +1,14 @@
 {
   "item.flavourfulandfoul.testing_item": "Testing Item",
   "item.flavourfulandfoul.testing_item_yellow": "Yellow Testing Item",
+  "item.flavourfulandfoul.testing_item_pink": "Pink Testing Item",
 
   "item.flavourfulandfoul.testing_chisel": "Testing Chisel",
 
   "block.flavourfulandfoul.testing_block": "Testing Block",
   "block.flavourfulandfoul.testing_block_yellow": "Yellow Testing Block",
+  "block.flavourfulandfoul.testing_block_pink": "Pink Testing Block",
+
   "block.flavourfulandfoul.testing_crate_block": "Testing Crate",
 
   "block.flavourfulandfoul.magic_block": "Magic Block",

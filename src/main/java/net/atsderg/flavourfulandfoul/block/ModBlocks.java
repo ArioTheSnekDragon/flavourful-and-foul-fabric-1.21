@@ -24,6 +24,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block PINK_TESTING_BLOCK = registerBlock("testing_block_pink",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
     public static final Block TESTING_CRATE_BLOCK = registerBlock("testing_crate_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(0,1),
                     AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.WOOD)));

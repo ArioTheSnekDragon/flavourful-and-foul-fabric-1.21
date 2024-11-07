@@ -30,7 +30,7 @@ public class MagicBlock extends Block {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
             if(itemEntity.getStack().getItem() == ModItems.TESTING_ITEM) {
-                itemEntity.setStack(new ItemStack(ModItems.TESTING_ITEM_YELLOW, itemEntity.getStack().getCount()));
+                itemEntity.setStack(new ItemStack(ModItems.TESTING_ITEM_PINK, itemEntity.getStack().getCount()));
             }
         }
 

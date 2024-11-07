@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TESTING_ITEM = registerItem("testing_item", new Item(new Item.Settings()));
     public static final Item TESTING_ITEM_YELLOW = registerItem("testing_item_yellow", new Item(new Item.Settings()));
+    public static final Item TESTING_ITEM_PINK = registerItem("testing_item_pink", new Item(new Item.Settings()));
 
     public static final Item TESTING_CHISEL = registerItem("testing_chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
 

@@ -18,9 +18,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TESTING_ITEM);
                         entries.add(ModItems.TESTING_ITEM_YELLOW);
+                        entries.add(ModItems.TESTING_ITEM_PINK);
 
                         entries.add(ModBlocks.TESTING_BLOCK);
                         entries.add(ModBlocks.YELLOW_TESTING_BLOCK);
+                        entries.add(ModBlocks.PINK_TESTING_BLOCK);
 
                         entries.add(ModBlocks.TESTING_CRATE_BLOCK);
 
