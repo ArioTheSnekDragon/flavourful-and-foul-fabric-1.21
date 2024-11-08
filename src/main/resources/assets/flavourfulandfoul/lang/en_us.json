@@ -4,12 +4,14 @@
   "item.flavourfulandfoul.testing_item_pink": "Pink Testing Item",
 
   "item.flavourfulandfoul.testing_food": "Testing Food",
-  "tooltip.flavourfulandfoul.testing_food": "Let them out!",
+  "tooltip.flavourfulandfoul.testing_food": "§7§oLet them out!",
   "item.flavourfulandfoul.testing_fuel": "Kindled Testing Item",
 
   "item.flavourfulandfoul.testing_chisel": "Testing Chisel",
-  "tooltip.flavourfulandfoul.chisel_shift_down": "Chisels some blocks into different variants- try it on oak planks!",
-  "tooltip.flavourfulandfoul.chisel": "Press §eShift§r for more Information!",
+  "tooltip.flavourfulandfoul.chisel_shift_down": "§7§oChisels some blocks into different variants§r",
+  "tooltip.flavourfulandfoul.chisel_shift_down2": "§7§oTry it on §2§ooak planks!§r",
+
+  "tooltip.flavourfulandfoul.chisel": "§7§oPress §e§oShift §7§ofor more Information!§r",
 
   "block.flavourfulandfoul.testing_block": "Testing Block",
   "block.flavourfulandfoul.testing_block_yellow": "Yellow Testing Block",
@@ -18,8 +20,8 @@
   "block.flavourfulandfoul.testing_crate_block": "Testing Crate",
 
   "block.flavourfulandfoul.magic_block": "Magic Block",
-  "tooltip.flavourfulandfoul.magic_block.tooltip": "Instant §9transmutation!§r",
-  "tooltip.flavourfulandfoul.magic_block.tooltip2": "Green to Pink!",
+  "tooltip.flavourfulandfoul.magic_block.tooltip": "§7§oInstant §d§otransmutation!§r",
+  "tooltip.flavourfulandfoul.magic_block.tooltip2": "§2§oGreen§r §7§oto §d§oPink!§r",
 
   "itemgroup.flavourfulandfoul.testing_items": "Testing Items",
   "itemgroup.flavourfulandfoul.testing_blocks": "Testing Blocks"

@@ -38,7 +38,7 @@ public class KindlingItem extends Item {
 
                 context.getStack().decrement(1);
 
-                world.playSound(null, context.getBlockPos(), SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS);
+                world.playSound(null, context.getBlockPos(), SoundEvents.ITEM_FIRECHARGE_USE, SoundCategory.BLOCKS);
             }
         }
 
