@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "flavourfulandfoul:block/testing_block_yellow"
-  }
-}
